@@ -1,0 +1,39 @@
+:root{
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --blackpure: #000;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+    --clr-black: #171718;
+    --clr-black-border: #26292d;
+    --clr-white: #fff;
+    --clr-purple: #5c62ec;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+
+    /*Nav*/
+    --nav-bg: var(--clr-black);
+    --nav-border: var(--clr-black-border);
+    --nav-text: var(--clr-white);
+
+    /* Light mode */
+    --page-bg: var( --clr-light);
+    --text-color: var(--clr-dark);
+
+    --title-1: var(--clr-accent);
+
+    --project-card-bg: var(--clr-light);
+    --project-card-text: var(--clr-dark);
+    --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+}
