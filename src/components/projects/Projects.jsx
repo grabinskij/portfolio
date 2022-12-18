@@ -5,8 +5,10 @@ import "./style.css";
 
 const Projects = () => {
     return (
-        <main className="section">
+        <section className="my-work" id="work">
             <div className="container">
+                <h2 className="section__title section__title--work">My projects</h2>
+                <p className="section__subtitle section__subtitle--work">I have created something</p>
                 <ul className="projects">
                     {projects.map((project, index) => {
                         return (
@@ -20,7 +22,7 @@ const Projects = () => {
                     })}
                 </ul>
             </div>
-        </main>
+        </section>
     );
 };
 

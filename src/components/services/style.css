@@ -19,7 +19,7 @@
     margin: 0.5em auto 1em;
     background: var(--clr-light);
     opacity: 0.25;
-    /* background: currentColor; */
+     /*background: currentColor;*/
 }
 .services{
     margin-bottom: 4em;

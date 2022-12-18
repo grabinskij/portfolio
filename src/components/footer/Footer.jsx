@@ -6,7 +6,7 @@ import "./style.css";
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <section className="footer">
             <a href="mailto:bogdan.grabinskij@gmail.com" className="footer__link">bogdan.grabinskij@gmail.com</a>
             <ul className="social-list">
                 <li className="social-list__item">
@@ -25,7 +25,7 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>
-        </footer>
+        </section>
     );
 };
 

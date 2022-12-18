@@ -23,7 +23,7 @@
     column-gap: 40px;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--ff-secondary);
 }
 
 .nav-list__link {

@@ -31,7 +31,7 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <a href="#" className="btn">My Work</a>
+                <a href="#work" className="btn">My Work</a>
             </section>
     );
 };

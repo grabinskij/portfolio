@@ -17,7 +17,6 @@
 html{
     min-height: 100vh;
     scroll-behavior: smooth;
-    min-height: 100vh;
 }
 
 body{
@@ -51,7 +50,7 @@ a{
 }
 
 section{
-    padding: 5em 2em;
+    padding: 4em 2em;
 }
 
 img{
@@ -70,6 +69,7 @@ h2,
 h3{
     line-height: 1.1;
     margin: 0;
+    font-weight: var(--fw-bold);
 }
 
 h1 {font-size: var(--fs-h1) }
@@ -119,10 +119,10 @@ h3 {font-size: var(--fs-h3) }
 
     border-radius: 5px;
     background-color: var(--clr-accent);
-    color: var(--clr-white);
+    color: #333333;
     letter-spacing: 0.15px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: var(--fw-bold);
 
     transition: opacity 0.2s ease-in;
 }
@@ -142,15 +142,12 @@ h3 {font-size: var(--fs-h3) }
     display: flex;
     column-gap: 10px;
     align-items: center;
-
     height: 48px;
     padding: 12px 20px;
-
     border-radius: 5px;
     border: 1px solid var(--blackpure);
     background-color: var(--clr-white);
     color: var(--blackpure);
-
     transition: opacity 0.2s ease-in;
 }
 

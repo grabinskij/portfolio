@@ -13,6 +13,7 @@
     --clr-black-border: #26292d;
     --clr-white: #fff;
     --clr-purple: #5c62ec;
+    --clr-grey: #565656;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -27,15 +28,19 @@
     --nav-border: var(--clr-black-border);
     --nav-text: var(--clr-white);
 
+    /*Projects*/
+    --projects-bg: var(--clr-grey);
+
     /* Light mode */
     --page-bg: var( --clr-light);
     --text-color: var(--clr-dark);
 
-    --title-1: var(--clr-accent);
 
     --project-card-bg: var(--clr-light);
     --project-card-text: var(--clr-dark);
-    --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+    /*--box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);*/
+    /*--box-shadow: 0px 0px 6px rgba(255,255,255,0.7);*/
+    --box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
 }
 
 @media (min-width: 800px){
