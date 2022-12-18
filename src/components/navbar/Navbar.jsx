@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
+import "./style.css";
 
 const Navbar = () => {
     const activeLink = 'nav-list__link nav-list__link--active';
