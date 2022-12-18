@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import "./style.css";
+import DarkModeBtn from "../darkModeBtn/darkModeBtn";
 
 const Navbar = () => {
     const activeLink = 'nav-list__link nav-list__link--active';
@@ -10,6 +11,8 @@ const Navbar = () => {
         <nav className="nav">
             <div className="container">
                 <div className="nav-row">
+
+                    <DarkModeBtn/>
 
                     <ul className="nav-list">
                         <li className="nav-list__item">

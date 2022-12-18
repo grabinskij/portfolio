@@ -1,6 +1,6 @@
 .my-services{
     background-color: var(--clr-dark);
-    /*background-image: url(../img/services-bg.png);*/
+    background-image: url("../../assets/img/services-bg.png");
     background-size: cover;
     color: var(--clr-light);
     text-align: center;

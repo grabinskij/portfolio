@@ -11,17 +11,17 @@ const Footer = () => {
             <ul className="social-list">
                 <li className="social-list__item">
                     <a href="#" className="social-list__link">
-                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faFacebook} className="social-list__icon"></FontAwesomeIcon>
                     </a>
                 </li>
                 <li className="social-list__item">
                     <a href="#" className="social-list__link">
-                        <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faGithub} className="social-list__icon"></FontAwesomeIcon>
                     </a>
                 </li>
                 <li className="social-list__item">
                     <a href="#" className="social-list__link">
-                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faLinkedin} className="social-list__icon"></FontAwesomeIcon>
                     </a>
                 </li>
             </ul>

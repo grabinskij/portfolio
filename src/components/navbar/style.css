@@ -1,8 +1,5 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
     padding: 1em;
-    /*padding: 20px 0;*/
     background-color: var(--nav-bg);
     border-bottom: 1px solid var(--nav-border);
     color: var(--nav-text);
@@ -17,17 +14,6 @@
     row-gap: 20px;
     flex-wrap: wrap;
 }
-
-/*.logo {*/
-/*    margin-right: auto;*/
-/*    color: var(--nav-text);*/
-/*    font-size: 24px;*/
-/*    font-family: 'Poppins', sans-serif;*/
-/*}*/
-
-/*.logo strong {*/
-/*    font-weight: 700;*/
-/*}*/
 
 .nav-list {
     display: flex;
