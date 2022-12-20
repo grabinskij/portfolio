@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import "./style.css";
-import DarkModeBtn from "../darkModeBtn/darkModeBtn";
+import DarkModeBtn from "../buttons/darkModeBtn/darkModeBtn";
 
 const Navbar = () => {
     const activeLink = 'nav-list__link nav-list__link--active';

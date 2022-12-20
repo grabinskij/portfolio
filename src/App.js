@@ -5,11 +5,14 @@ import Footer from "./components/footer/Footer";
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 import ContactsPage from "./pages/ContactsPage";
+import ScrollToTop from "./utils/scrollToTop"
+
 
 function App() {
   return (
           <div className="App">
             <Router>
+              <ScrollToTop />
               <Navbar />
               <Routes>
                 <Route path="/" element={<HomePage />} />

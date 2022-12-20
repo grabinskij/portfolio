@@ -1,6 +1,6 @@
 .nav {
     padding: 1em;
-    background-color: var(--nav-bg);
+    background: var(--nav-bg);
     border-bottom: 1px solid var(--nav-border);
     color: var(--nav-text);
     letter-spacing: normal;

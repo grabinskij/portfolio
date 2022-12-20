@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import {useLocalStorage} from "../../utils/useLocalStorage"
-import darkModeDetector from '../../utils/darkModeDetector';
-import sun from '../../assets/img/icons/sun.svg';
-import moon from '../../assets/img/icons/moon.svg';
+import {useLocalStorage} from "../../../utils/useLocalStorage"
+import darkModeDetector from '../../../utils/darkModeDetector';
+import sun from '../../../assets/img/icons/sun.svg';
+import moon from '../../../assets/img/icons/moon.svg';
 import './style.css';
 
 const DarkModeBtn = () => {

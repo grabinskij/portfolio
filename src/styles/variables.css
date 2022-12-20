@@ -3,6 +3,8 @@
     --ff-secondary: 'Source Code Pro', monospace;
 
     --fw-reg: 300;
+    --fw-semiReg: 400;
+    --fw-semiBold: 600;
     --fw-bold: 900;
 
     --blackpure: #000;
@@ -28,6 +30,9 @@
     --nav-border: var(--clr-black-border);
     --nav-text: var(--clr-white);
 
+
+    --project-btn-bg: var(--clr-white);
+    --project-btn: var(--clr-black);
     /*Projects*/
     --projects-bg: var(--clr-grey);
 
