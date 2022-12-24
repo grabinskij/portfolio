@@ -1,10 +1,11 @@
 import React from 'react';
+import Contact from "../components/contact/Contact";
 
 const ContactsPage = () => {
     return (
-        <div>
-
-        </div>
+        <section className="contacts">
+            <Contact />
+        </section>
     );
 };
 

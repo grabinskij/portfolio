@@ -1,4 +1,7 @@
 .nav {
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*z-index: 9999;*/
     padding: 1em;
     background: var(--nav-bg);
     border-bottom: 1px solid var(--nav-border);

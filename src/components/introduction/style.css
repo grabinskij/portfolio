@@ -1,6 +1,11 @@
 .intro{
     position: relative;
 }
+@media(max-width: 980px){
+    .intro h1{
+        font-size: var(--fs-h2);
+    }
+}
 
 .intro__img{
     box-shadow: var(--bs);
@@ -10,7 +15,7 @@
     display: inline-block;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 880px) {
     .intro{
         display: grid;
         width: min-content;
